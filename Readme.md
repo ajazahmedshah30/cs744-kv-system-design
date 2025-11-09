@@ -1,6 +1,6 @@
 # cs744-kv-system-design 
 
-This project is a simple HTTP-based Key-Value Store written in C++.  
+This project is a simple HTTP-based Key-Value Server written in C++.  
 It supports basic create, read, and delete operations over HTTP. Data is stored in a SQLite database, and an in-memory cache is used to improve performance.
 
 ---
@@ -95,7 +95,7 @@ curl "localhost:8080/delete?key=1"
 
 ## Summary
 
-This project implements a small and concurrent HTTP-based key-value store.  
+This project implements a small and concurrent HTTP-based key-value server.  
 It provides a basic understanding of how caching and persistence work in web systems.
 
 ---
